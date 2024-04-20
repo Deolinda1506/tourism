@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -17,9 +18,9 @@
         </a>
         <nav id="navbar">
             <ul>
-                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="events.html">Events</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="about.html" class="active">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
 
             </ul>
@@ -30,52 +31,37 @@
         </form>
         <a href="#"><i class="ri-menu-3-line" id="menu"></i></a>
 
-       
+
     </header>
     <div class="mobile_nav">
         <i class="ri-close-line" id="close"></i>
         <ul>
-            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="events.html">Events</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="about.html" class="active">About</a></li>
             <li><a href="contact.html">Contact</a></li>
-            </ul>
+        </ul>
     </div>
-
-    <section id="hero" class="section">
-        <div class="container">
-            <div class="hero_text">
-                <h1>ALU Alumni Connect Hub</h1>
-                <hr>
-                <p>Your premier destination for staying connected with your alma mater and fellow alumni!
-                </p>
-            </div>
-            <button>
-                <span>Get Started</span>
-            </button>
-        </div>
-    </section>
-
-    <section class="section" id="featured">
+    <section class="section section_featured" id="featured">
         <div class="container">
             <h1>Why we started?</h1>
             <p> The ALU Alumni Connect Hub is a dedicated platform that informs you about upcoming events, networking
                 opportunities, and important updates from your university community.</p>
-            <div class="featured_info">
-                <div class="info">
+            <div class="featured_info ">
+                <div class="info info_about">
                     <i class="ri-eye-fill"></i>
                     <h1>Vision</h1>
                     <p>We aim to build AlumniConnect into the go-to platform for all alumni-related activities,
                         facilitating meaningful connections and enhancing the overall alumni experience.</p>
                 </div>
-                <div class="info">
+                <div class="info info_about">
                     <i class="ri-honour-fill"></i>
                     <h1>Mission</h1>
                     <p>Our mission is to create a vibrant and supportive network for alumni to reconnect with old
                         friends, forge new connections, and access opportunities for continued learning and development.
                     </p>
                 </div>
-                <div class="info">
+                <div class="info info_about">
                     <i class="ri-focus-2-fill"></i>
                     <h1>Goals</h1>
                     <p>We aim to cultivate a vibrant and supportive community of engaged alumni, fostering lifelong
@@ -86,60 +72,90 @@
         </div>
     </section>
 
-    <section class="section-p1" id="blog">
-        <div class="welcome">
-            <h1 class="blog_main_heading">Featured Events <span><i class="ri-flashlight-fill"></i></span></h1>
-            <a href="events.html" class="blog-btn"><span><i class="ri-arrow-right-s-line"></i></span> Visit Events</a>
-        </div>
-
-        <div class="container">
-            <div class="first_blog">
-                <div class="card">
-                    <div class="img">
-                        <img src="assets/blog.jpg" alt="">
+    <section class="section-p1" id="blog_teams">
+        <h1 class="about_header">Meet our team</h1>
+        <p class="about_p">These people keep our community together, Meet them!</p>
+        <div class="grid">
+            <div class="card"><img class="card__img" src="assets/Kayc.jpg" alt="Snowy Mountains">
+                <div class="card__content">
+                    <h1 class="card__header">Simeon Azeh K.</h1>
+                    <div class="card__text-wrapper">
+                        <p class="card__text">Meet our AlumniHub<strong> chairperson </strong>, the leader of the committee responsible for overseeing its activities, coordinating meetings, and representing the committee to external stakeholders.
+                        </p>
+                        <span class="dates">ALU' 27</span>
                     </div>
-                    <div class="card-details">
-                        <h3 class="blog_heading"><a href="event.html">Annual Alumni Events? Here's all you need to
-                                you</a></h3>
-                        <p>Homecoming Weekend: Football, tours, reunions, networking, celebration, tradition, alumni
-                            reconnect...</p>
-                        <a href="event.html" class="read_more">Read more <span><i
-                                    class="ri-arrow-drop-right-line"></i></span></a>
-                    </div>
+                    <button class="card__btn">Read Bio <span>&rarr;</span></button>
                 </div>
             </div>
-            <div class="second_blog">
-
-                <div class="card">
-                    <div class="card-details">
-                        <h3 class="blog_heading"><a href="event.html">Graduation Celebrations</a></h3>
-                        <p>Every year we commemorate achievement, mingle, honor, cherish, build lifelong bonds...</p>
-                        <a href="event.html" class="read_more">Read more <span><i
-                                    class="ri-arrow-drop-right-line"></i></span></a>
+            
+            <div class="card"><img class="card__img" src="assets/Belinda 2.jpg" alt="Desert">
+                <div class="card__content">
+                    <h1 class="card__header">Belinda Larose</h1>
+                    <div class="card__text-wrapper">
+                        <p class="card__text">Meet our AlumniHub<strong> secretary </strong> who is Responsible for maintaining records of committee meetings, handling correspondence, and ensuring communication among committee members.
+                        </p>
+                        <span class="dates">ALU' 27</span>
                     </div>
+                    <button class="card__btn">Read Bio<span>&rarr;</span></button>
                 </div>
-                <div class="card">
-                    <div class="card-details">
-                        <h3 class="blog_heading"><a href="event.html">Alumni Seminars</a></h3>
-                        <p>Alumni come together for lifelong learning, professional development, networking, knowledge
-                            sharing, growth opportunities...</p>
-</p>
-                        <a href="event.html" class="read_more">Read more <span><i
-                                    class="ri-arrow-drop-right-line"></i></span></a>
+            </div> 
+            
+            <div class="card"><img class="card__img" src="assets/Linda.jpg" alt="Desert">
+                <div class="card__content">
+                    <h1 class="card__header">Gnon Deolinda B.</h1>
+                    <div class="card__text-wrapper">
+                        <p class="card__text">Meet our AlumniHub<strong> treasurer </strong> who is responsible for collecting and disbursing financial transactions.
+                        </p>
+                        <span class="dates">ALU' 27</span>
                     </div>
+                    <button class="card__btn">Read Bio<span>&rarr;</span></button>
                 </div>
-                <div class="card">
-                    <div class="card-details">
-                        <h3 class="blog_heading"><a href="event.html">External Social Events</a></h3>
-                        <p>Events outside campus for camaraderie, fun, connections, memories, community engagement,
-                            socializing opportunities...</p>
-                        <a href="event.html" class="read_more">Read more <span><i
-                                    class="ri-arrow-drop-right-line"></i></span></a>
+            </div> 
+            
+            <div class="card"><img class="card__img" src="assets/Nicolle.jpg" alt="Desert">
+                <div class="card__content">
+                    <h1 class="card__header">Nicolle Marizani N.</h1>
+                    <div class="card__text-wrapper">
+                        <p class="card__text">Meet our AlumniHub<strong> vice chairperson </strong> who assists the chairperson in their duties and assumes their responsibilities in their absence.
+                        </p>
+                        <span class="dates">ALU' 27</span>
                     </div>
+                    <button class="card__btn">Read Bio<span>&rarr;</span></button>
+                </div>
+            </div> 
+            <div class="card"><img class="card__img" src="assets/Afsa.jpg" alt="Desert">
+                <div class="card__content">
+                    <h1 class="card__header">Afsa Umutoniwase </h1>
+                    <div class="card__text-wrapper">
+                        <p class="card__text">Meet our AlumniHub<strong> committee member</strong> part of the individuals who contribute to the decision-making process and participate in various tasks and initiatives undertaken by the committee.
+                        </p>
+                        <span class="dates">ALU' 27</span>
+                    </div>
+                    <button class="card__btn">Read Bio<span>&rarr;</span></button>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="section" id="featured_events">
+        <div class="container">
+            <div class="img_container">
+                <img src="assets/change.png" alt="">
+            </div>
+            <div class="featured_info_events">
+                <h1>Be a change maker</h1>
+                <p> Join our team and make an impact, submit your email and we will reach out to you!</p>
+                <form action="">
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                    <input type="button" value="Subscribe" class="input_btn">
+                </form>
+            </div>
+        </div>
+    </section>
+
+  
+
+
     <footer>
 
         <div class="container">
