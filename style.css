@@ -157,7 +157,7 @@ header form i {
     display: flex;
     align-items: center;
     height: 100vh;
-    background: url(assets/image/ganvié.jpeg);
+    background: url(assets/image\ganvié.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
